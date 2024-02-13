@@ -15,6 +15,10 @@ run docker image
 docker run -p 8080:8080 docker-go-server
 ```
 
+rebuild the application
+```
+GOOS=linux GOARCH=amd64 go build
+```
 
 build to prepare to push
 ```
